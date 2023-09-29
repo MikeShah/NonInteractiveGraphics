@@ -1,7 +1,8 @@
 import std.stdio;
 
 void expensive(){
-    for(size_t i=0; i < 10000000 ; ++i){
+    // Pro tip: Use _ so you can read numbers.
+    for(size_t i=0; i < 10_000_000 ; ++i){
         writeln("Hi: ",i);
     }
 
